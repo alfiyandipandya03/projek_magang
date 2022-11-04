@@ -27,9 +27,8 @@
     .frame {
       /* width: 90%; */
       margin-top: 10px;
-      margin-left: auto;
-      margin-right: 0;
-      width: fit-content;
+      width: 100%;
+      display: flex;
     } 
   .button {
     margin: 20px;
@@ -53,6 +52,7 @@
     outline: none;
   }
   .btn-back {
+    margin-right: auto;
     background-color: #89d8d3;
     background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
     border: none;
@@ -87,6 +87,7 @@
     top: 2px;
   }
   .btn-pdf {
+    margin-left: auto;
     border: none;
     position: right;
     background: rgb(251,33,117);
