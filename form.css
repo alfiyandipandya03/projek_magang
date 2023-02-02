@@ -28,7 +28,7 @@ body {
   position:relative;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="input"], #contact input[type="date"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+#contact input[type="number"], #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="input"], #contact input[type="date"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #contact {
   background:#F9F9F9;
@@ -57,7 +57,7 @@ fieldset {
   width: 50%;
 }
 
-#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="input"], #contact input[type="date"], #contact input[type="url"], #contact textarea {
+#contact input[type="number"], #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="input"], #contact input[type="date"], #contact input[type="url"], #contact textarea {
   width:25%;
   border:1px solid #CCC;
   background:#FFF;
@@ -65,7 +65,7 @@ fieldset {
   padding:10px;
 }
 
-#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="input"]:hover, #contact input[type="date"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+#contact input[type="number"], #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="input"]:hover, #contact input[type="date"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
   -webkit-transition:border-color 0.3s ease-in-out;
   -moz-transition:border-color 0.3s ease-in-out;
   transition:border-color 0.3s ease-in-out;
@@ -102,6 +102,23 @@ fieldset {
   outline:0;
   border:1px solid #999;
 }
+#pembayaran{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#bank{
+  display: flex;
+  width: 180px;
+  margin: 0 10px;
+}
+
+#bank .icon{
+  height: 60px;
+  width: 125px;
+  object-fit: fill;
+}
+
 ::-webkit-input-placeholder {
  color:#888;
 }
